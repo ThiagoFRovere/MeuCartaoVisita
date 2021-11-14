@@ -1,0 +1,62 @@
+body{
+    background-color: black; /*define a cor de fundo do site*/
+}
+
+.card{
+    /*configura o tamanho da cartão*/
+    font-size: 15px; /*tamanho da fonte do titulo do cartão*/
+    width: 400px; 
+    height: 200px;
+    /*arruma o tamanho da foto com o tamanho do cartao*/
+    box-sizing: border-box;
+    padding: 1px 20px;
+    /*adiciona a imagem de fundo*/
+    background: url('../assets/backgorund.png') no-repeat;
+    background-size: cover;
+    /*configura as margens e o espacamento das linhas*/
+    margin: auto; /*centraliza o cartao no meio da tela*/
+    margin-top: 5%; /*distancia do cartao para o inicio da pagina*/
+    line-height: 10px; /*distancia do final do texto pra a linha de baixo da tabela*/
+}
+
+a{
+    /*define a cor da pagina atras do cartão*/
+    text-decoration: none;
+    color: black;
+}
+
+.instagram{
+    Word-spacing: 0px; /*define o espaçamento das letras uma das outras*/
+    padding-bottom: 7px; /*espaçamento de imagem de baixo*/
+    font-size: 20px; /*tamanho da fonte*/
+    line-height: 10px; /*espaçamento de uma linha da lista pra outra*/ 
+    list-style-image: url(../assets/instagram.png); /*caminha da imagem que vai ser trocar no 
+                                                        lugar do ponto da lista */
+}
+
+.linkedin{
+    Word-spacing: 0px; /*define o espaçamento das letras uma das outras*/
+    padding-bottom: 7px; /*espaçamento de imagem de baixo*/
+    font-size: 20px; /*tamanho da fonte*/
+    line-height: 10px; /*espaçamento de uma linha da lista pra outra*/ 
+    list-style-image: url(../assets/linkdin.png); /*caminha da imagem que vai ser trocar no 
+                                                        lugar do ponto da lista */
+}
+
+.github{
+    Word-spacing: 0px; /*define o espaçamento das letras uma das outras*/
+    padding-bottom: 7px; /*espaçamento de imagem de baixo*/
+    font-size: 20px; /*tamanho da fonte*/
+    line-height: 10px; /*espaçamento de uma linha da lista pra outra*/ 
+    list-style-image: url(../assets/github.png); /*caminha da imagem que vai ser trocar no 
+                                                        lugar do ponto da lista */
+}
+
+.whatsapp{
+    Word-spacing: 0px; /*define o espaçamento das letras uma das outras*/
+    padding-bottom: 7px; /*espaçamento de imagem de baixo*/
+    font-size: 20px; /*tamanho da fonte*/
+    line-height: 10px; /*espaçamento de uma linha da lista pra outra*/ 
+    list-style-image: url(../assets/whatsapp.png); /*caminha da imagem que vai ser trocar no 
+                                                         lugar do ponto da lista */
+}
